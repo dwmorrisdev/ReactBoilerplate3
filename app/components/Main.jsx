@@ -8,9 +8,9 @@ var Main = (props) => {
       <Nav/>
       <div className="row">
         <div className="columns medium-6 large-4 small-centered">
-          {props.children}
+          
           <h1 className="text-center">This is the Main page.</h1>
-
+            {props.children}
 
         </div>
       </div>
