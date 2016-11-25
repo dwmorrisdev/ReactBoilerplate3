@@ -1,0 +1,67 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'init' ]
+2 info using npm@3.10.3
+3 info using node@v6.5.0
+4 silly package data { name: 'react-timer',
+4 silly package data   version: '1.0.0',
+4 silly package data   description: 'Simple react app',
+4 silly package data   main: 'index.js',
+4 silly package data   scripts: { test: 'karma start', start: 'node server.js' },
+4 silly package data   author: 'Dustin Morris',
+4 silly package data   license: 'MIT',
+4 silly package data   dependencies:
+4 silly package data    { axios: '^0.9.1',
+4 silly package data      express: '^4.13.4',
+4 silly package data      react: '^0.14.7',
+4 silly package data      'react-dom': '^0.14.7',
+4 silly package data      'react-router': '^2.0.0' },
+4 silly package data   devDependencies:
+4 silly package data    { 'babel-core': '^6.5.1',
+4 silly package data      'babel-loader': '^6.2.2',
+4 silly package data      'babel-preset-es2015': '^6.5.0',
+4 silly package data      'babel-preset-react': '^6.5.0',
+4 silly package data      'babel-preset-stage-0': '^6.5.0',
+4 silly package data      'css-loader': '^0.23.1',
+4 silly package data      expect: '^1.14.0',
+4 silly package data      'foundation-sites': '^6.2.0',
+4 silly package data      jquery: '^2.2.1',
+4 silly package data      karma: '^0.13.22',
+4 silly package data      'karma-chrome-launcher': '^0.2.2',
+4 silly package data      'karma-mocha': '^0.2.2',
+4 silly package data      'karma-mocha-reporter': '^2.0.0',
+4 silly package data      'karma-sourcemap-loader': '^0.3.7',
+4 silly package data      'karma-webpack': '^1.7.0',
+4 silly package data      mocha: '^2.4.5',
+4 silly package data      'node-sass': '^3.4.2',
+4 silly package data      'react-addons-test-utils': '^0.14.7',
+4 silly package data      'sass-loader': '^3.1.2',
+4 silly package data      'script-loader': '^0.6.1',
+4 silly package data      'style-loader': '^0.13.0',
+4 silly package data      webpack: '^1.12.13' },
+4 silly package data   repository:
+4 silly package data    { type: 'git',
+4 silly package data      url: 'git+https://github.com/dwmorrisdev/ReactTimer.git' },
+4 silly package data   bugs: { url: 'https://github.com/dwmorrisdev/ReactTimer/issues' },
+4 silly package data   homepage: 'https://github.com/dwmorrisdev/ReactTimer#readme' }
+5 info init written successfully
+6 verbose stack Error: EACCES: permission denied, open '/home/sparticus/Documents/WebProjects/ReactTimer/package.json'
+6 verbose stack     at Error (native)
+7 verbose cwd /home/sparticus/Documents/WebProjects/ReactTimer
+8 error Linux 4.4.0-47-generic
+9 error argv "/usr/bin/nodejs" "/usr/bin/npm" "init"
+10 error node v6.5.0
+11 error npm  v3.10.3
+12 error path /home/sparticus/Documents/WebProjects/ReactTimer/package.json
+13 error code EACCES
+14 error errno -13
+15 error syscall open
+16 error Error: EACCES: permission denied, open '/home/sparticus/Documents/WebProjects/ReactTimer/package.json'
+16 error     at Error (native)
+16 error  { Error: EACCES: permission denied, open '/home/sparticus/Documents/WebProjects/ReactTimer/package.json'
+16 error     at Error (native)
+16 error   errno: -13,
+16 error   code: 'EACCES',
+16 error   syscall: 'open',
+16 error   path: '/home/sparticus/Documents/WebProjects/ReactTimer/package.json' }
+17 error Please try running this command again as root/Administrator.
+18 verbose exit [ -13, true ]
