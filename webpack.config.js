@@ -11,8 +11,8 @@ module.exports = {
   },
   plugins: [
     new webpack.ProvidePlugin({
-      '$': 'jquery',
-      'jQuery': 'jquery'
+      $: 'jquery',
+      jQuery: 'jquery'
     })
   ],
   output: {
@@ -29,7 +29,8 @@ module.exports = {
       Countdown: 'app/components/Countdown.jsx',
       Clock: 'app/components/Clock.jsx',
       About: 'app/components/About.jsx',
-      CountdownForm: 'app/components/CountdownForm.jsx'
+      CountdownForm: 'app/components/CountdownForm.jsx',
+      jQuery: 'node_modules/jquery/dist/jquery.min.js'
     },
     extensions: ['', '.js', '.jsx']
   },

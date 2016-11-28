@@ -18,7 +18,7 @@ describe('CountdownForm', () => {
 		countdownForm.refs.seconds.value = '109';
 		TestUtils.Simulate.submit($el.find('form')[0]);
 
-		expect(spy).toHaveBeenCalled With(109);
+		expect(spy).toHaveBeenCalledWith(109);
 	});
 	it('should call not onSetCoundown if in-valid seconds entered', () => {
 		var spy = expect.createSpy();
