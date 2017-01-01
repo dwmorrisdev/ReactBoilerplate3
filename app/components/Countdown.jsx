@@ -34,6 +34,7 @@ var Countdown = React.createClass({
 	},
 	render: function () {
 	var {count} = this.state;
+  
 	return (
 		<div>
 			<Clock totalSeconds={count}/>
