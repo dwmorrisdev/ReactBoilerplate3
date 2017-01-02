@@ -9,6 +9,7 @@
   li{
     text-decoration: none;
     list-style: none;
+
   }
   .menu > .menu-text > a{
     display: inline;
@@ -18,5 +19,10 @@
 
   .active-link {
     font-weight: bold;
+    color: $link-hover;
+  }
+
+  a{
+    color: $link;
   }
 }

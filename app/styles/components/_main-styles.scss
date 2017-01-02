@@ -1,6 +1,7 @@
 body{
 	background: $bg-img repeat;
 	height: 100%;
+	color: $gen-font;
 }
 
 ul{
@@ -17,4 +18,12 @@ p{
 
 li{
 	font-family: $num-font;
+}
+
+a{
+	color: $link;
+}
+
+a:hover{
+	color: $link-hover;
 }

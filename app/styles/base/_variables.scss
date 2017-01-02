@@ -6,21 +6,31 @@ $header-font: 'Kanit', sans-serif;
 $num-font: 'Exo 2', sans-serif;
 $p-font: 'Reem Kufi', sans-serif;
 
+//bkg pattern
+$bg-img: url('../assets/img/random_grey_variations.png');
+$nav-img: url('../assets/img/black-wallpaper-1.jpg');
+
 
 //colors
 $grey: #333333;
+$black: #161616;
+$whiteish: #d9e1f9;
+$gen-font: #e5efff;
+
+$link: #8cb8ff;
+$link-hover: #5492f7;
 
 // nav colors
-$nav-background: $grey;
-$nav-text-color: white;
+$nav-background: $black;
+$nav-text-color: $whiteish;
 
 //clock variables
-$clock-text-color: white;
-$clock-bg-color: #b5d0e2;
-$clock-border-color: #2099e8;
+$clock-text-color: $whiteish;
+$clock-bg-color: #4b4e56;  
+$clock-border-color: #878c9b;
 
-//bkg pattern
-$bg-img: url('../assets/img/confectionary.png');
+
+
 
 
 
