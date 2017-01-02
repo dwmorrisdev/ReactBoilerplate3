@@ -4,9 +4,9 @@ var About = React.createClass({
   render: function () {
     return (
     	<div className="text-center holder">
-    		<h2>About Section</h2>
-    		<p>This app is built in React and was built as a proejct for React Course on Udemy. Built By Dustin Morris and completed on TBD.</p>
-    		<p>Resources and credits:</p>
+    		<h2 className="page-title">About Section</h2>
+    		<p>This app is built in React and was built as a proejct for a React Course on Udemy. Built By Dustin Morris and completed on 1-1-17. This project is built on node.js, react, and foundation. </p>
+    		<h4>Resources and credits:</h4>
     		<ul>
     			<li><a href="https://facebook.github.io/react/">React</a></li>
     			<li><a href="http://foundation.zurb.com/">Foundation</a></li>
