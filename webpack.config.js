@@ -26,12 +26,7 @@ module.exports = {
       Main: 'app/components/Main.jsx',
       applicationStyles: 'app/styles/app.scss',
       Nav: 'app/components/Nav.jsx',
-      Timer: 'app/components/Timer.jsx',
-      Countdown: 'app/components/Countdown.jsx',
-      Controls: 'app/components/Controls.jsx',
-      Clock: 'app/components/Clock.jsx',
       About: 'app/components/About.jsx',
-      CountdownForm: 'app/components/CountdownForm.jsx',
       jQuery: 'node_modules/jquery/dist/jquery.min.js'
     },
     extensions: ['', '.js', '.jsx']
